@@ -67,7 +67,7 @@ router.post('/api/employee/add', (req, res) => {
 
 // Update Employee
 
-router.put('/api/employee/edit/:id', (req, res) => {
+router.put('/api/employee/update/:id', (req, res) => {
 
 
     const emp = {
